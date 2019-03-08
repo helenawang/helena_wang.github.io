@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      用sticky和伪元素实现<table>的“冻结窗格”效果  # 标题 
+title:      用sticky和伪元素实现table的“冻结窗格”效果  # 标题 
 subtitle:   难点在border的固定上，但以后有望纳入升级版的sticky #副标题
 date:       2019-03-08              # 时间
 author:     Terry Wang                      # 作者
@@ -10,6 +10,7 @@ tags:                               #标签
     - css
     - front-end
 ---
+# 用sticky和伪元素实现table的“冻结窗格”效果
 
 ## 先说一些题外话
 

@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      用原生js实现\<li>元素上移下移的三种方法  # 标题 
+title:      用原生js实现li元素上移下移的三种方法  # 标题 
 subtitle:   改变数据or结构or样式？ #副标题
 date:       2019-09-23              # 时间
 author:     Terry Wang                      # 作者
@@ -15,7 +15,9 @@ tags:                               #标签
 
 ## 需求描述
 给定一个无序列表结构，要求实现如下的效果：
-![gif](./li-up-down.gif)
+
+![gif](https://github.com/helenawang/helenawang.github.io/blob/master/_posts/li-up-down.gif)
+
 1. 每个\<li>都支持“上移”和“下移”两种操作，通过点击元素后面的按钮触发。
 2. 若某次点击的元素不会移出边界，则交换该元素和相邻的指定方向的元素。
 3. 若某次即将“溢出”边界，则应实现“循环”移动的效果。
